@@ -1,7 +1,7 @@
 {
   "name": "punch-thirdparty-snippets-helper",
-  "title": "Punch Thirdparty Snippets Helper",
-  "description": "Collection of thirdparty snippets (Google Analytics, Disqus, Tweet Button & Web Font Loader), you can easily add to your Punch templates.",
+  "title": "Punch Third Party Snippets Helper",
+  "description": "Collection of third party snippets (Google Analytics, Disqus, Tweet Button & Web Font Loader), you can easily add to your Punch templates.",
   "version": "0.0.1",
   "homepage": "https://github.com/laktek/punch-thirdparty-snippets-helper",
   "author": {
