@@ -1,6 +1,6 @@
 # Punch Third Party Snippets Helper
 
-Collection of third party snippets (Google Analytics, Disqus, Tweet Button & Web Font Loader), you can easily add to your Punch templates.
+Collection of third party snippets (Google Analytics, Disqus, Tweet Button & Web Font Loader), you can easily add to your [Punch](http://laktek.github.com/punch) templates.
 
 ## How to Use 
 
