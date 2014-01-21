@@ -2,7 +2,7 @@
 
 Collection of third party snippets (Google Analytics, Disqus, Tweet Button & Web Font Loader), you can easily add to your [Punch](http://laktek.github.com/punch) templates.
 
-## How to Use 
+## How to Use
 
 * Install the package
 
@@ -23,11 +23,13 @@ Collection of third party snippets (Google Analytics, Disqus, Tweet Button & Web
 		"thirdparty_snippets": {
 
 			"google_analytics": {
-				"property_id": "UA-XXXXXX-X"	
+				"universal": true
+				"property_id": "UA-XXXXXX-X"
+				"property_domain": "yoursite.com"
 			},
 
 			"disqus": {
-				"shortname": "username"	
+				"shortname": "username"
 			},
 
 			"twitter": {
@@ -45,8 +47,11 @@ Here is a full list of options available for each snippet:
 
 **Google Analytics**
 
-* protertyId (required) - The property ID for the site you want to track ([Learn More](http://support.google.com/analytics/bin/answer.py?hl=en&answer=1032385))
+* universal: (optional, default to `false`) - if `true`, use the new universal google analytics tracking code
+* property_domain (optional, default to `auto`) - only use when `universal` is `true`
+* proterty_id (required) - The property ID for the site you want to track ([Learn More](http://support.google.com/analytics/bin/answer.py?hl=en&answer=1032385))
 * async - Whether to load the script in asynchronous mode, which will start tracking the events immediately without blocking the page rendering (default: true)
+
 
 **Disqus**
 
@@ -56,7 +61,7 @@ Here is a full list of options available for each snippet:
 
 * via - Screen name of the user to attribute the Tweet to
 * count - Count box position values: none, horizontal, vertical (default: none)
-* size - The size of the rendered button values: medium, large (default: medium) 
+* size - The size of the rendered button values: medium, large (default: medium)
 
 **WebFont Loader**
 
@@ -80,5 +85,5 @@ or Typekit:
 
 ## License
 
-Copyright (c) 2012   
+Copyright (c) 2012
 Licensed under the MIT license.
