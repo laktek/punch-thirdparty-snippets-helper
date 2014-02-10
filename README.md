@@ -75,12 +75,14 @@ For example to use Google Fonts:
 			}
 		}
 
-or Typekit:
+**Typekit**
 
-		"web_fonts": {
-			typekit: {
-				id: 'xxxxxx'
-			}
+To use Typekit fonts exclusively, use the Typekit snippet.
+
+* id (required) - Typekit account ID
+
+		"typekit": {
+			"id": 'xxxxxx'
 		}
 
 ## License
